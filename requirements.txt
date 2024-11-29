@@ -1,0 +1,7 @@
+pyautogui>=0.9.53
+pillow>=8.0.0
+opencv-python>=4.5.0
+pywin32>=228; platform_system=="Windows"
+pyperclip>=1.8.2
+wmctrl>=0.4; platform_system=="Linux"  # Linux下的窗口控制
+xdotool>=3.20160805.1; platform_system=="Linux"  # Linux下的窗口控制

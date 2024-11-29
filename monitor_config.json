@@ -1,0 +1,23 @@
+{
+    "account": {
+        "risk_level": "safe",
+        "daily_limits": {
+            "send_message": 500
+        }
+    },
+    "resource_dir": "./resources",
+    "monitor_targets": {
+        "groups": ["目标群1", "目标群2"],
+        "contacts": ["目标联系人1", "目标联系人2"]
+    },
+    "keywords": {
+        "你好": ["你也好啊", "很高兴见到你"],
+        "价格": ["具体价格请私聊", "稍等，我查询一下"],
+        "在吗": ["在的，请问有什么可以帮您？", "您好，我在的"]
+    },
+    "auto_reply": true,
+    "reply_probability": 0.8,
+    "check_interval": 2,
+    "restart_interval": 6,
+    "sensitive_hours": [23, 0, 1, 2, 3, 4, 5]
+} 
